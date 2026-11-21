@@ -5,6 +5,10 @@
   [Database Design v1.0](docs/Database_Design.pdf), and [API Design v1.0](docs/API_Design.pdf).
   Surface gaps or conflicts before implementing the affected behavior. Changes to frozen
   decisions require explicit approval and the applicable versioned change record.
+- Use [Project Status](docs/PROJECT_STATUS.md) to pick up development context. Update it in
+  the same change when adding a feature or making a meaningful change to an existing one,
+  including new user-facing fields. Add a milestone or revise the relevant entry with what
+  shipped, what was verified, and any remaining work before reporting completion.
 - Use the approved references in [docs/design](docs/design/README.md) for UI changes.
   Ask for missing designs before implementing the affected screens.
 - Keep one Next.js App Router modular monolith. Organize business code by feature.
